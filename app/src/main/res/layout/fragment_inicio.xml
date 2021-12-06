@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/inicio_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="50dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:text="@string/bienvenido"
+        android:textColor="@color/purple_500"
+        android:textSize="30sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/introduce_nombre_del_peri_dico"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/nameET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/el_pa_s"
+        android:inputType="text"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/urlET"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/introduce_url_para_primera_pantalla"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/periodicoET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/https_elpais_com"
+        android:inputType="text"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/add1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/anadir" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/introduce_nombre_del_peri_dico"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/nameET2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/el_confidencial"
+        android:textSize="12sp" />
+
+
+    <TextView
+        android:id="@+id/urlET2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/introduce_url_de_la_segunda_pantalla"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/periodicoET2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/https_elconfidencial_com"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/add2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/anadir" />
+
+</LinearLayout>

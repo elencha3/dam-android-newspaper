@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Up_To_Date</string>
+    <string name="inicio">Start</string>
+    <string name="miPeriodico">My News 1</string>
+    <string name="miPeriodico2">My News 2</string>
+    <string name="bienvenido">Welcome!</string>
+    <string name="introduce_nombre_del_peri_dico">Enter the name of the Newspaper</string>
+    <string name="el_pa_s">BBC</string>
+    <string name="introduce_url_para_primera_pantalla">Enter the URL for the first screen </string>
+    <string name="https_elpais_com">https://bbc.com</string>
+    <string name="https_elconfidencial_com">https://nytimes.com</string>
+    <string name="introduce_url_de_la_segunda_pantalla">Enter the URL for the second screen </string>
+    <string name="el_confidencial">The New York Times</string>
+    <string name="anadir">Add</string>
+    <string name="cargando">Loading...</string>
+    <string name="introduce_valid_url">Introduce a valid URL</string>
+    <string name="introduce_name_url">Introduce the name and the URL</string>
+    <string name="periodico_anadido">Newspaper added!</string>
+    <string name="que_desea_hacer">What do you want to do?</string>
+    <string name="ir_periodico">Go to Newspaper</string>
+    <string name="anadir_otro">Add another</string>
+
+    <string-array name="pantallas">
+        <item>Start</item>
+        <item>My News 1</item>
+        <item>My News 2</item>
+    </string-array>
+
+</resources>

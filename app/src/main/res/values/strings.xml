@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Estar al día</string>
+    <string name="inicio">Inicio</string>
+    <string name="miPeriodico">Mi Periodico 1</string>
+    <string name="miPeriodico2">Mi Periódico 2</string>
+    <string name="bienvenido">¡Bienvenido!</string>
+    <string name="introduce_nombre_del_peri_dico">Introduce nombre del periódico</string>
+    <string name="el_pa_s">El País</string>
+    <string name="introduce_url_para_primera_pantalla">Introduce URL del primer periódico</string>
+    <string name="https_elpais_com">https://elpais.com</string>
+    <string name="el_confidencial">El Confidencial</string>
+    <string name="introduce_url_de_la_segunda_pantalla">Introduce URL del segundo periódico</string>
+    <string name="https_elconfidencial_com">https://elconfidencial.com</string>
+    <string name="anadir">Añadir</string>
+    <string name="cargando">Cargando...</string>
+    <string name="introduce_valid_url">Debe introducir una URL válida</string>
+    <string name="introduce_name_url">Debe introducir nombre y URL</string>
+    <string name="periodico_anadido">¡Periódico añadido!</string>
+    <string name="que_desea_hacer">¿Qué desea hacer ahora?</string>
+    <string name="ir_periodico">Ir al periódico</string>
+    <string name="anadir_otro">Añadir otro</string>
+
+
+    <string-array name="pantallas">
+        <item>Inicio</item>
+        <item>Mi Periódico 1</item>
+        <item>Mi Periódico 2</item>
+    </string-array>
+
+</resources>
